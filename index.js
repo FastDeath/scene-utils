@@ -4,7 +4,7 @@ var releaseGroupPat = /-(\w+)$/;
 var tagSet = {
 	quality: ["HD", "SD", "HDTV", /\.\d{3,}p/g],
 	source: ["BluRay", "BDRip", "WEB-DL", "WEBRip", "iTunesHD", "AmazonHD"],
-	languages: [/german/i, /english/i],
+	language: [/german/i, /english/i],
 	tags: [
 		/\.[xh]\.?264/i, "AVC",
 		/\.DD5\.?1/, "DTS", "AC3",
